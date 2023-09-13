@@ -1,0 +1,3 @@
+txt= "Aniket"
+
+console.log()

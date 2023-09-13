@@ -1,0 +1,165 @@
+
+.bg{
+ background:  linear-gradient(90deg,blue,black);
+}
+div ul{
+    list-style-type: none;
+}
+div ul li a{
+    margin-left: 10px;
+}
+div ul li a:hover{
+    margin-left: 10px;
+    color: wheat;
+    animation: Aniket 2s 1;
+}
+@keyframes Aniket {
+    from{font-size:20px; };
+    to{font-size: 35px;}
+    
+}
+div ul a{
+    text-decoration: none;
+    color:rgb(91, 188, 233);
+   
+    
+
+}
+div.mini-po{
+    border: 2px solid black ;
+    box-shadow: 1px 1px 6px blue;
+    margin: 20px;
+    padding: 80px;
+    font-family: cursive;
+    text-align: center;
+    width: 25%;
+    background: url(../photos/);
+    border-radius: 20px;
+    font-size: 20px;
+    width: 220px;
+    height: 220px;
+}
+
+div h4{
+    font-size: 20px;
+    margin-left:35px;
+    color: white;
+}
+div.banner-text{
+    border: 3px solid black;
+    margin-top: 20px;
+     box-shadow: 2px 2px 20px black;
+    text-align: center;
+    font-size: 50px;
+    width: 400px; 
+    border-bottom-left-radius: 20px;  
+    border-bottom-right-radius: 20px;  
+    border-top: none;
+    height: 400px;
+    padding: 20px;
+}
+div.calculator{
+    background-image:url(../photos/background_calculator.jpg);
+    background-size: cover;
+    color: rgb(5, 15, 106);
+}
+div.Resume{
+    background-image:url(../photos/Resume.jpg);
+    background-size: cover;
+}
+div.Animations{
+    background-image:url(../photos/Animation.jpg);
+    background-size: cover;
+    
+}
+div.College-demo{
+    background-image:url(../photos/College-demo.jpg);
+    background-size: cover;
+    color: white;
+}
+div a i{
+    color:rgb(91, 188, 233);
+    font-size:30px ;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 2px;
+    
+}
+.fa-facebook:hover{
+    color: blue;
+    
+}
+.fa-instagram:hover{
+ color: rgb(255, 0, 144);
+}
+.fa-twitter:hover{
+  color: rgb(33, 209, 253);
+}
+.fa-youtube:hover{
+  color: red;
+}
+div.btn{
+    background:transparent ;
+    border: 2px solid rgb(33, 209, 253);
+    margin: 20px;
+    color: rgb(33, 209, 253);
+    border-radius: 20px;
+    width: 150px;
+
+}
+.footer-container{
+    background: linear-gradient(90deg,blue,black);
+}
+div.row div a{
+    /* text-decoration: none;
+    color: black; */
+}
+div.row div a.Animations{
+   
+    color: white;
+}
+.Animation1{
+    color: white;
+}
+div .col-6 img  {
+    width: 500px;
+    border-radius: 20px;
+    border: 0.1px solid white;
+    box-shadow: 2px 2px 22px rgb(111, 107, 107);
+    border-radius: 20px;
+}
+div .col-6 img:hover  {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 22px cyan;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+div.get{
+    background: black;
+}
+label.ct{
+    color: white  ;
+  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 25px;
+    margin-top: 20px;
+  
+}
+label.ct:hover{
+    color: white  ;
+    text-shadow: 1px 1px 4px cyan;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    font-family: cursive;
+    font-size: 25px;
+    margin-top: 20px;
+  
+}

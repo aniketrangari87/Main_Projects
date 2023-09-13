@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+ 
+ border: 2px solid yellow;
+    }
+    
+
+        .five {
+            background-color:black;
+           position: inherit;
+            width: 500px;
+            margin-top: 30px;
+            height: 500px;
+           margin-left: auto;
+           animation: infinite 3s Aniket linear ;
+           margin-right: auto;
+
+        }
+        /* .five:hover {
+            background-color:cyan;
+          
+            width: 500px;
+            margin-top: 30px;
+            height: 500px;
+           margin-left: auto;
+           animation: infinite 2s Aniket ;
+           margin-right: auto;
+
+        } */
+       
+        @keyframes Aniket {
+            0%{transform: rotate(360deg)};
+            100%{transform: rotate(360deg)};
+            
+        }
+       
+        @keyframes Any {
+            0%{transform: rotate(-360deg)};
+            100%{transform: rotate(0deg)};
+            
+        }
+       
+      
+        .four{
+background-color:white;
+           width: 400px;
+          position: inherit;
+          animation: infinite 2s Any linear ;
+           margin-top: 30px;
+            height: 400px;
+            margin-left: auto;
+           margin-right: auto;
+        }
+       
+      
+        .three{
+            background-color: black;
+            position: relative;
+            width: 300px;
+            animation: infinite 2s Aniket linear ;
+            height: 300px;
+            margin-top: 50px;
+            margin-left: auto;
+           margin-right: auto;
+        }
+      
+        .two{
+            background-color: white;
+            width: 200px;
+            margin-top: 30px;
+            position: relative;
+            height: 200px;
+            animation: infinite 2s Any linear ;
+            margin-left: auto;
+           margin-right: auto;
+        }
+       
+     
+        .one{
+            background-color: black;
+            width: 100px;
+            position: relative;
+            animation: infinite 2s Aniket linear ;
+           margin-top: 30px;
+            height: 100px;
+            margin-left: auto;
+           margin-right: auto;
+        }
+        
+      
+    </style>
+
+</head>
+
+<body>
+    <div class="five">5
+        <div class="four">4
+            <div class="three">3
+                <div class="two">2
+                    <div class="one">
+1
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

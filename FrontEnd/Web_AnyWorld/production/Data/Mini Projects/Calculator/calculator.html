@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/e5d5e9f0bd.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script>
+        function clearo(){
+            document.getElementById("display").innerHTML="";
+
+        }
+        function sum() {
+           var a=document.getElementById('num1').value;
+           a=parseInt(a);
+           var b=document.getElementById('num2').value;
+           b=parseInt(b);
+           var c=a+b;
+     document.getElementById("display").innerHTML=c;
+        }
+        function sub() {
+           var a=document.getElementById('num1').value;
+           a=parseInt(a);
+           var b=document.getElementById('num2').value;
+           b=parseInt(b);
+           var c=a-b;
+     document.getElementById("display").innerHTML=c;
+        }
+        function multi() {
+           var a=document.getElementById('num1').value;
+           a=parseInt(a);
+           var b=document.getElementById('num2').value;
+           b=parseInt(b);
+           var c=a*b;
+     document.getElementById("display").innerHTML=c;
+        }
+        function divide() {
+           var a=document.getElementById('num1').value;
+           a=parseInt(a);
+           var b=document.getElementById('num2').value;
+           b=parseInt(b);
+           var c=a/b;
+     document.getElementById("display").innerHTML=c;
+        }
+   
+    </script>
+    <style>
+        @media screen and (max-width:750px){
+            div.container{
+                height: 1000px;
+            }
+            
+        }
+    </style>
+</head>
+
+<body style="background-color:whitesmoke;">
+    <div  class="container text-primary  mt-5 p-5 "
+        style=" background-color:silver; height: 600px;width:500px;border:2px solid black ;border-radius:10px; box-shadow:1px 1px 6px black ">
+        <div class="label text-center h2 mb-4 text-secondary ">CALCULATOR </div>
+        <div class="row">
+            <div class=" col-md-5 lable h3">Number 1 </div>
+            <input id="num1"  type="text" class="col-md border-info rounded " style="width:100%">
+        </div>
+        <div class="row mt-4 mb-5 ">
+            <div class="col-md-5 lable h3">Number 2 </div>
+            <input id="num2" type="text" class="col-md border-info rounded " style="width:100%">
+
+            <div class=" mt-5">
+                <div class="row">
+                    <div class="col-md m-2 mb-3 p-2 btn btn-info border-dark" onclick="sum()"> Sum </div>
+                    <div class="col-md m-2 mb-3 p-2 btn btn-info border-dark" onclick="sub()">Subtract </div>
+                </div>
+                <div class="row">
+                    <div class="col-md m-2 mb-3 p-2 btn btn-info  border-dark" onclick="multi()">Multiply</div>
+                    <div class="col-md m-2 mb-3 p-2 btn btn-info border-dark " onclick="divide()">Divide</div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 h4 mt-5 mx-1"> Result : </div>
+                <p id="display" class="col-md-3 mt-5 text-dark  p-1 h4 w-50 m-3 "
+                    style="border: 2px solid rgb(20, 159, 190) ; border-radius: 10px ;height: 50px;"></p>
+                    <div class="col-md m-2 mb-3 p-2 btn btn-info border-dark " onclick="clearo()">Clear</div>
+                   
+            </div>
+
+        </div>
+       
+    </div>
+   
+<a href="../../../index.html" style="font-family: cursive;">go back </a>
+</body>
+
+</html>

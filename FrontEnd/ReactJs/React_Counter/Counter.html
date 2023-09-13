@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter </title>
+    <style>
+        body{
+            background-color: aquamarine;
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #show{
+            border: 2px solid black ;
+            width:200px;
+            padding: 20px;
+         
+            margin-top: 20px;
+        }
+        button{
+            border-radius: 15px;
+            width: 60px;
+        }
+    </style>
+    <script src="Counter.js"></script>
+
+    <style>
+   body {
+    background: #000;
+   }
+        div{
+
+            display: flex;
+
+        gap: 30px ;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        background-color: cyan;
+        padding: 20px;
+        border:  2px dashed blue;
+        text-align: center;
+        box-shadow: 1px 1px 30px wheat;
+        }
+    </style>
+
+   
+
+</head>
+<body>
+    <div id="container_counter">
+        Initilize : <input id="inputt" type="text" >
+        <button id="min" onclick="initilize()">initilize  </button>
+        <button id="min" onclick="min()">- </button>
+      
+        <span type="text" id="show"></span>
+    
+        <button id="max"  onclick="max()">+</button>
+        <button id="reset"  onclick="reset()">Reset </button>
+      
+       
+        
+    </div>
+ 
+</body>
+</html>
